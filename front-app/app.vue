@@ -1,15 +1,5 @@
 <template>
-	<Html>
-		<Body>
-			<NuxtLayout>
-				<NuxtPage />
-			</NuxtLayout>
-		</Body>
-	</Html>
+  <div>
+    <NuxtWelcome />
+  </div>
 </template>
-
-<script>
-	export default {
-		layout: 'default',
-	};
-</script>
